@@ -91,4 +91,4 @@ var flipBook = new FlipBook(document.getElementById("flipbook"));
 
 setTimeout(() => {
   document.querySelector(".more").classList.remove("hide");
-}, 6000);
+}, 10000);
