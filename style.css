@@ -201,8 +201,9 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
   background: linear-gradient(to bottom right, #f3eeae, #faf8df);
 }
 .more {
+  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
   gap: 25px;
   margin-top: 2.5%;
   margin-left: 45%;
@@ -225,6 +226,8 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
   }
   .more {
     width: 40%;
+    gap: 40px;
+    margin-top: 5%;
   }
   .btnHint {
     font-size: 10px;
