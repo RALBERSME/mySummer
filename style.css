@@ -213,6 +213,13 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
 .hide {
   display: none;
 }
+@media (max-width: 1000px) {
+  .more {
+    width: 40%;
+    gap: 40px;
+    margin-top: 5%;
+  }
+}
 @media (max-width: 768px) {
   .btn {
     padding: 8px 12px;
