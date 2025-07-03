@@ -177,6 +177,7 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
 .btn:hover {
   background-color: transparent;
   cursor: pointer;
+  transform: translateY(5px) translateX(5px);
 }
 
 .btn:before {
@@ -199,6 +200,18 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
 .yellow {
   background: linear-gradient(to bottom right, #f3eeae, #faf8df);
 }
+.more {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 2.5%;
+  margin-left: 45%;
+  width: 10%;
+}
+
+.hide {
+  display: none;
+}
 @media (max-width: 768px) {
   .btn {
     padding: 8px 12px;
@@ -209,5 +222,11 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
   }
   p {
     font-size: 0.95rem;
+  }
+  .more {
+    width: 40%;
+  }
+  .btnHint {
+    font-size: 10px;
   }
 }
