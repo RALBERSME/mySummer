@@ -219,11 +219,14 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
     gap: 40px;
     margin-top: 5%;
   }
-}
-@media (max-width: 768px) {
+  .btnHint {
+    font-size: 10px;
+  }
   .btn {
     padding: 8px 12px;
   }
+}
+@media (max-width: 768px) {
   .flipbook {
     width: 400px;
     height: 500px;
@@ -235,8 +238,5 @@ body[onload] div.leaf:nth-child(4) > div:nth-child(1) {
     width: 40%;
     gap: 40px;
     margin-top: 5%;
-  }
-  .btnHint {
-    font-size: 10px;
   }
 }
